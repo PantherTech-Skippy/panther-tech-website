@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panther Technology Solutions | Modern IT for Small Business</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        panther: {
+                            red: '#AD3A2B',
+                            hover: '#8B2E22'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #1a1a1a 0%, #333333 100%); }
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-24 items-center">
+                <div class="flex items-center">
+                    <img src="./panther-logo.jpg" alt="Panther Logo" class="h-20 w-auto rounded-lg">
+                    <span class="ml-4 text-2xl font-extrabold tracking-tight text-gray-900">Panther <span class="text-panther-red">Technology</span> Solutions</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="/" class="text-gray-600 hover:text-panther-red font-semibold transition">Home</a>
+                    <a href="#services" class="text-gray-600 hover:text-panther-red font-semibold transition">Services</a>
+                    <a href="https://blog.panthertechnologysolutions.com" class="text-gray-600 hover:text-panther-red font-semibold transition">Blog</a>
+                    <a href="#contact" class="bg-panther-red text-white px-6 py-3 rounded-lg hover:bg-panther-hover transition font-bold shadow-md">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="gradient-bg text-white py-20 lg:py-32">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl lg:text-6xl font-extrabold mb-6 tracking-tight">
+                IT That Just <span class="text-panther-red italic font-light">Works.</span>
+            </h1>
+            <p class="text-xl lg:text-2xl text-gray-300 max-w-3xl mx-auto mb-10 font-light">
+                Bridging the gap between complex technology and small business reality. Dedicated expertise for innovation and security.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#contact" class="bg-panther-red text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-panther-hover shadow-lg transition">Schedule Your Support</a>
+                <a href="#services" class="bg-white/10 backdrop-blur-md text-white border border-white/20 px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/20 transition">Explore Services</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Grid -->
+    <section id="services" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">How I Help You Grow</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Focused solutions for the technology challenges small businesses face every day.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Repair -->
+                <div class="p-8 border border-gray-100 rounded-2xl bg-gray-50 hover:shadow-xl transition group">
+                    <div class="w-12 h-12 bg-red-50 text-panther-red rounded-lg flex items-center justify-center mb-6 group-hover:bg-panther-red group-hover:text-white transition">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Repair & Maintenance</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">Fast repairs for laptops, cracked screens, and hardware failures. Custom PC builds designed for your workload.</p>
+                </div>
+
+                <!-- Security -->
+                <div class="p-8 border border-gray-100 rounded-2xl bg-gray-50 hover:shadow-xl transition group">
+                    <div class="w-12 h-12 bg-red-50 text-panther-red rounded-lg flex items-center justify-center mb-6 group-hover:bg-panther-red group-hover:text-white transition">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Software & Security</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">Malware removal, OS error fixes, and proactive security to keep the digital "bad guys" away from your data.</p>
+                </div>
+
+                <!-- Networking -->
+                <div class="p-8 border border-gray-100 rounded-2xl bg-gray-50 hover:shadow-xl transition group">
+                    <div class="w-12 h-12 bg-red-50 text-panther-red rounded-lg flex items-center justify-center mb-6 group-hover:bg-panther-red group-hover:text-white transition">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071a11 11 0 0115.658 0M2.929 6.515a17.5 17.5 0 0124.142 0"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Data & Networking</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">Automatic backups and data recovery. Professional Wi-Fi and office network setup to keep you connected.</p>
+                </div>
+
+                <!-- Consulting -->
+                <div class="p-8 border border-gray-100 rounded-2xl bg-gray-50 hover:shadow-xl transition group">
+                    <div class="w-12 h-12 bg-red-50 text-panther-red rounded-lg flex items-center justify-center mb-6 group-hover:bg-panther-red group-hover:text-white transition">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">IT Consulting</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">Customized solutions for complex needs. Expert guidance and remote support tailored to your budget.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Preview Section -->
+    <section class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-8">Latest Insights from the Blog</h2>
+            <div class="bg-white p-4 rounded-3xl shadow-lg border border-gray-100 aspect-video mb-8 overflow-hidden relative">
+                <!-- Using an iframe to pull in the Blogger content -->
+                <iframe src="https://blog.panthertechnologysolutions.com" class="w-full h-full border-0 rounded-2xl" loading="lazy"></iframe>
+                <div class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-white to-transparent pointer-events-none"></div>
+            </div>
+            <a href="https://blog.panthertechnologysolutions.com" target="_blank" class="text-panther-red font-bold hover:text-panther-hover flex items-center justify-center gap-2 group">
+                Visit the Full Blog 
+                <svg class="w-5 h-5 group-hover:translate-x-1 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section id="contact" class="py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center bg-gray-50 p-12 lg:p-20 rounded-3xl shadow-2xl border border-gray-100">
+            <h2 class="text-3xl lg:text-5xl font-bold mb-6">Ready to Secure Your Business?</h2>
+            <p class="text-gray-600 text-lg mb-10 font-light">Don't let technology slow you down. Let me handle the tech, so you can focus on building your business.</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdC6EEFpajgU6sAl3kmn3HYZReAeDa3ri84jHbZQMVHjSBCaQ/viewform?usp=dialog" target="_blank" class="inline-block bg-panther-red text-white px-10 py-5 rounded-xl font-bold text-xl hover:bg-panther-hover shadow-xl transition-all hover:-translate-y-1">Get Started Today</a>
+            <p class="mt-8 text-sm text-gray-400">Trusted IT support for Northwest Arkansas small businesses.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white py-12 border-t border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="flex items-center">
+                <img src="./panther-logo.jpg" alt="Panther Logo" class="h-12 w-auto">
+                <span class="ml-3 text-gray-500 font-bold">&copy; 2026 Panther Technology Solutions, LLC</span>
+            </div>
+            <div class="flex space-x-6 text-gray-400 text-sm items-center">
+                <a href="https://github.com/PantherTech-Skippy" target="_blank" class="hover:text-panther-red transition" title="GitHub">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path></svg>
+                </a>
+                <a href="#" class="hover:text-panther-red transition">Privacy Policy</a>
+                <a href="#" class="hover:text-panther-red transition">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
