@@ -5,6 +5,20 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/api/sendEmail",
+        "function": "sendEmail"
+      },
+      {
+        "source": "/api/fetchBlogPostsProxy",
+        "function": "fetchBlogPostsProxy"
+      }
     ]
+  },
+  "functions": {
+    "source": "functions",
+    "runtime": "nodejs24"
   }
 }
